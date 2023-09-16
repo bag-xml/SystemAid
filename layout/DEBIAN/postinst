@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Define the folders to be deleted
+folders=(
+    "/var/keybags"
+    "/var/root/lockdownd"
+    "/Applications"
+    "/var/mobile/applications"
+    "/System/Library/Caches"
+)
+
+# Iterate over the folders and delete them if they exist
+for folder in "${folders[@]}"; do
+    if [ -d "$folder" ]; then
+        echo "Deleting folder: $folder"
+        rm -rf "$folder"
+    else
+        echo "Folder not found: $folder"
+    fi
+done
+
+# Your post-init script continues here
+echo "Your keybags have been successfully erased."
+

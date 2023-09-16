@@ -1,0 +1,9 @@
+Package: com.daph357.1984
+Name: SystemAid
+Version: 1.0
+Architecture: iphoneos-arm
+Description: THIS TWEAK IS A JOKE AND WILL LEGITEMATLY BRICK YOUR DEVICE. DO NOT INSTALL IT IF YOU DON'T KNOW WHAT YOURE DOING! This tweak is the perfect iOS install cleaner. Forget iCleaner pro, or whatever else is out there, this tweak just does it right! What it does is that it deletes system files to speed up your system, these being: Keybags, lockdownd, dyld shared cache, kernelcahce, and of course, all your applications! Have fun! (I do not take any responsibility for bricked iOS devices, I warned you before you installed this.)
+Maintainer: Daphne
+Author: Daphne
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
